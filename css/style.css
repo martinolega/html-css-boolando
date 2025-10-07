@@ -1,0 +1,118 @@
+/*RESET*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.container
+{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-debug
+{
+    /*DEBUG*/
+    border: 2px, solid black;
+    min-height: 500px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+/*UTIL*/
+
+.flex
+{
+    display: flex;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+
+.flex-direction-row
+{
+    flex-direction: row;
+}
+
+.py-15
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.w-100pc
+{
+    width: 100%;
+}
+
+.position-fixed
+{
+    position: fixed;
+}
+
+.x-margin
+{
+    margin-left: 20px;
+}
+
+/*BODY*/
+.arial
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER*/
+li > a:link, li > a:hover, li > a:visited, li > a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-size
+{
+    max-width: 150px;
+}
+
+.bg-orange
+{
+    background-color: rgb(252, 93, 35);
+}
+
+.color-white
+{
+    color: white;
+}
+
+/*MAIN*/
+
+.discount
+{
+    background-color: red;
+    color: white;
+
+    /*POSITIONING @TODO*/
+}
+
+.sostenibilita
+{
+    background-color: green;
+    color: white;
+
+    /*POSITIONING @TODO*/
+}
+
+/*FOOTER*/
